@@ -14,11 +14,12 @@
 >Brigefy第一次使用时需要翻墙，仅适合聚集的地方使用
 
 1. <a href="#desc">项目简介和推荐vpn</a>
-2. <a href="#android">安卓手机端下载 -- 2023年5月中旬墙内测试可以使用</a>
-3. <a href="#ios">苹果手机苹果电脑下载教程 -- 2023年5月中旬墙内测试可以使用</a>
-4. <a href="#windows">微软系统客户端下载 -- 未测试</a>
-5. <a href="#resilio">编程随想翻墙软件最新同步密码</a>
-6. <a href="#end-gfw">End GFW提供的其它软件 - Session群</a>
+2. <a href="#general">不需要客户端连接方式--适用于所有系统</a>
+3. <a href="#android">安卓手机端下载 -- 2023年5月中旬墙内测试可以使用</a>
+4. <a href="#ios">苹果手机苹果电脑下载教程 -- 2023年5月中旬墙内测试可以使用</a>
+5. <a href="#windows">微软系统客户端下载 -- 未测试</a>
+6. <a href="#resilio">编程随想翻墙软件最新同步密码</a>
+7. <a href="#end-gfw">End GFW提供的其它软件 - Session群</a>
 
     ---
     蜂拥 洋葱网络 DHT 无审查去中心化聊天软件 更改应用图标 微信文本加密 洋葱路由
@@ -40,6 +41,32 @@
 
 [拆墙运动软件下载](https://github.com/end-gfw/google-groups)
 [拆墙运动推特](https://twitter.com/end_gfw)
+
+# <a id="general">VPN Gate提供的不需要客户端连接方式--适用于所有系统</a>
+以安卓为例
+
+设置 -> 连接 -> VPN -> 添加VPN配置 或者在设置中搜索VPN
+
+选择L2TP/IPSec PSK 类型
+
+服务器地址 xxx.xxx.xxx.xxx, 例如219.100.37.92
+
+用户名vpn 密码vpn 预分享密钥或密钥vpn
+
+<img src='/general.jpg' width='300' height='400' />
+
+筛选L2TP/IPsec
+
+<img src='/server.png' width='800' height='400' />
+
+
+2023年5月20日VPN Gate服务器地址
+[镜像地址1](http://222.255.11.117:54621/cn/)
+[镜像地址2](http://173.198.248.39:18358/cn/)
+[镜像地址3](http://91.193.75.5:45082/cn/)
+[镜像地址4](http://156.96.115.76:63475/cn/)
+
+将会添加服务器地址到repo
 
 # <a id="android">安卓手机端下载</a>
 
