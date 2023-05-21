@@ -1,33 +1,42 @@
 # 翻墙,免费翻墙,科学上网,免费VPN，完全免费vpn，免费科学上网,防火墙,团结起来推倒防火墙，思想自由，中国是世界上为数不多（不超过10个）无法访问谷歌的国家
-## 优先推荐使用 聊天应用Session, Jami, 翻墙应用New Node VPN -- 2023年5月中旬墙内测试可以使用
+
+## 如果你是开发者，fork这个仓库 repository 并开启同步，每天凌晨自动同步更新
+>Fork后 仓库repository的 Settings -> Actions -> General -> Workflow permissions -> 勾选 Read and write permissions ->点击Save
+>查看最后图片
+
+## 优先推荐使用 通讯应用Session, Skred, 翻墙应用New Node VPN -- 2023年5月中旬墙内测试可以使用
 >Session初次使用时需要翻墙，群组限制100人，可以翻墙使用Session, 无法翻墙使用Jami
 
+>Skred 无需翻墙
+
+
+## 其次推荐使用  Jami, 离线通讯应用Briar(仅安卓版本), Brigefy -- 2023年5月中旬墙内测试可以使用
 >Jami注册时可能需要翻墙，之后使用不需要翻墙
 
->Jami一对一聊天时两人必须同时在线，建议设置后台运行：右上角 -> 高级设置 -> 后台运行
+>Jami一对一通讯时两人必须同时在线，建议设置后台运行：右上角 -> 高级设置 -> 后台运行
 
 >Jami群最多8人，Jami正在移除这个限制
 
-## 其次推荐使用 离线聊天应用Briar(仅安卓版本), Brigefy -- 2023年5月中旬墙内测试可以使用
 >Briar 不需要翻墙使用
 
 >Brigefy第一次使用时需要翻墙，仅适合聚集的地方使用
 
 1. <a href="#desc">项目简介和推荐vpn</a>
-2. <a href="#general">不需要客户端连接方式--适用于所有系统</a>
-3. <a href="#android">安卓手机端下载 -- 2023年5月中旬墙内测试可以使用</a>
-4. <a href="#ios">苹果手机苹果电脑下载教程 -- 2023年5月中旬墙内测试可以使用</a>
+2. <a href="#general">不需要客户端连接方式--适用于所有系统--部分测试</a>
+3. <a href="#android">安卓手机端下载 -- 2023年5月中旬墙内测试</a>
+4. <a href="#ios">苹果手机苹果电脑下载教程 -- 2023年5月中旬墙内测试</a>
 5. <a href="#windows">微软系统客户端下载 -- 未测试</a>
 6. <a href="#resilio">编程随想翻墙软件最新同步密码</a>
 7. <a href="#end-gfw">End GFW提供的其它软件 - Session群</a>
 
     ---
-    蜂拥 洋葱网络 DHT 无审查去中心化聊天软件 更改应用图标 微信文本加密 洋葱路由
+    蜂拥 洋葱网络 DHT 无审查去中心化通讯软件 更改应用图标 微信文本加密 洋葱路由
     
-7. <a href="#what-can-we-do">我们能做什么</a>
+8. <a href="#what-can-we-do">我们能做什么</a>
+9. <a href="#fork-sync">Fork 开启同步</a>
 
 # <a id="desc">项目简介和推荐vpn</a>
-大部分由美国政府资助开发
+软件大多由美国政府资助开发
 
 [编程随想匿名保护隐私指南](https://github.com/hello-world-1989/program-think-image)
 
@@ -40,10 +49,11 @@
 友情链接
 
 [拆墙运动软件下载](https://github.com/end-gfw/google-groups)
+
 [拆墙运动推特](https://twitter.com/end_gfw)
 
 # <a id="general">VPN Gate提供的不需要客户端连接方式--适用于所有系统</a>
-以安卓为例
+>安卓版本12以上不适用, 请下载客户端
 
 设置 -> 连接 -> VPN -> 添加VPN配置 或者在设置中搜索VPN
 
@@ -55,41 +65,38 @@
 
 <img src='/general.jpg' width='300' height='400' />
 
-筛选L2TP/IPsec
+服务器地址，每天更新
 
-<img src='/server.png' width='800' height='400' />
-
-
-2023年5月20日VPN Gate服务器地址
-[镜像地址1](http://222.255.11.117:54621/cn/)
-[镜像地址2](http://173.198.248.39:18358/cn/)
-[镜像地址3](http://91.193.75.5:45082/cn/)
-[镜像地址4](http://156.96.115.76:63475/cn/)
-
-将会添加服务器地址到repo
+<img src='https://raw.githubusercontent.com/hello-world-1989/cn-news/main/server.jpg' width='800' height='800' />
 
 # <a id="android">安卓手机端下载</a>
 
 New Node
 
-[本网站下载](https://github.com/hello-world-1989/temp/raw/c000867ab760ae9c6f09e7d37b586f23ced49473/android/NewNode%20VPN_2.1.1_Apkpure.apk)
+[本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/newnode.vpn.2.1.2.apk)
 [谷歌应用商店下载](https://play.google.com/store/apps/details?id=com.clostra.newnode.vpn) 
 [Apkpure下载](https://apkpure.com/newnode/com.newnode.messenger/download)
 
-Phiphon 2023年5月中旬测试后发现不能使用，期待尽快修复
+nthlink 2023年5月中旬测试后仅能在应用内部访问 美国之音 自由亚洲电台 Youtube等网站，测试不一定准确，欢迎下载使用并反馈
 
-[谷歌应用商店下载](https://play.google.com/store/apps/details?id=com.psiphon3.subscription)
+[本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/nthlink-6_0_5.apk.zip)
+[谷歌应用商店下载](https://play.google.com/store/apps/details?id=com.nthlink.android.client)
+[Apkpure下载](https://apkpure.com/nthlink/com.nthlink.android.client)
+
+Phiphon 2023年5月中旬测试后发现不稳定，测试不一定准确，欢迎下载使用并反馈
+
+[本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/Psiphon_379_Apkpure.apk)
 [Apkpure下载](https://apkpure.com/psiphon/com.psiphon3)
 
-Lattern 2023年5月中旬测试后发现不能使用，期待尽快修复
+Super VPN 2023年5月中旬测试后发现不稳定，测试不一定准确，欢迎下载使用并反馈
+
+[本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/SuperVPN_2.8.4_Apkpure.apk)
+[Apkpure下载](https://apkpure.com/cn/supervpn-fast-vpn-client/com.jrzheng.supervpnfree/)
+
+Lattern 2023年5月中旬测试后发现不稳定，仅能在应用内搜索，测试不一定准确，欢迎下载使用并反馈
 
 [谷歌应用商店下载](https://play.google.com/store/apps/details?id=org.getlantern.lantern)
 [Apkpure下载](https://apkpure.com/lantern-open-internet-for-all/org.getlantern.lantern)
-
-nthlink 2023年5月中旬测试后仅能在应用内部访问 美国之音，期待尽快修复
-
-[谷歌应用商店下载](https://play.google.com/store/apps/details?id=com.nthlink.android.client)
-[Apkpure下载](https://apkpure.com/nthlink/com.nthlink.android.client)
 
 Tor Browser 分布式去中心化 可以使用
 
@@ -106,8 +113,7 @@ Tor Browser 分布式去中心化 可以使用
 <img src='/ios/ios-part1.png' width='250' height='350' />
 <img src='/ios/ios-part2.png' width='250' height='350' />
 
-
-切换后可以搜索New Node VPN,tor browser, Psiphon, Lattern, nthlink 等
+切换后可以搜索New Node VPN,nthlink, tor browser, Psiphon, Lattern,  等
 
 百度搜索注册美区账号教程或[知乎](https://zhuanlan.zhihu.com/p/367821925)
 
@@ -147,13 +153,13 @@ Psiphon
 
 BQDQF2CBGPH6MR2JHOFJRJZJPVYBLAJEH
 
-# <a id="end-gfw">End GFW提供的其它软件，通过BTSync(Resilio Sync）同步下载或者访问以下链接下载 - - DHT 无审查去中心化聊天软件 更改应用图标 微信文本加密</a>
+# <a id="end-gfw">End GFW提供的其它软件，通过BTSync(Resilio Sync）同步下载或者访问以下链接下载 - - DHT 无审查去中心化通讯软件 更改应用图标 微信文本加密</a>
 
 介绍详见[链接](https://github.com/end-gfw/google-groups)
 
-优先顺序: Session -> Jami -> Briar(仅安卓) -> Brigefy
+优先顺序: Session -> Skred -> Jami -> Briar(仅安卓) -> Brigefy
 
-Session 去中心化分布式聊天，无需手机号，无需邮箱，无需翻墙也可使用
+Session 去中心化分布式通讯，无需手机号，无需邮箱，无需翻墙也可使用
 
 [End GFW网站下载](https://github.com/end-gfw/google-groups/raw/main/Session_1.16.7_Apkpure.apk)
 [Apkpure下载](https://apkpure.com/cn/session-private-messenger/network.loki.messenger/download)
@@ -163,17 +169,22 @@ Session 去中心化分布式聊天，无需手机号，无需邮箱，无需翻
 
 <img src='/session.jpg' width='300' height='500' />
 
-Jami 蜂拥 去中心化分布式聊天，无需手机号，无需邮箱，无需翻墙也可使用
+Skred messager 去中心化分布式通讯，无需手机号，无需邮箱，无需翻墙也可使用
+
+[End GFW下载](https://github.com/end-gfw/google-groups/raw/main/Skred_Messenger_8.2_Apkpure.apk)
+[Apkpure下载](https://apkpure.com/cn/skred-messenger/mobi.skred.app/download)
+
+加群
+
+<img src='/skred.jpg' width='300' height='500' />
+
+Jami 蜂拥 去中心化分布式通讯，无需手机号，无需邮箱，无需翻墙也可使用
 
 [End GFW网站下载](https://github.com/end-gfw/google-groups/raw/main/Jami_20230421-01_Apkpure.apk)
 [Apkpure下载](https://apkpure.com/cn/jami/cx.ring/download)
 [谷歌应用商店下载](https://play.google.com/store/apps/details?id=cx.ring)
 
-加群
-
-<img src='/jami.jpg' width='200' height='400' />
-
-Briar 离线无审查分布式去中心化无网络蓝牙聊天软件,暂时仅支持安卓手机
+Briar 离线无审查分布式去中心化无网络蓝牙通讯软件,暂时仅支持安卓手机
 [End GFW网站下载](https://github.com/end-gfw/google-groups/raw/main/Briar_1.4.23_Apkpure.apk)
 [Apkpure下载](https://apkpure.com/cn/briar/org.briarproject.briar.android)
 
@@ -190,16 +201,20 @@ SSE 可以使用短信或微信发送加密后的文本，文本加密后将无�
 [Apkpure下载](https://apkpure.com/cn/sse-file-text-encryption/com.paranoiaworks.unicus.android.sse)
 
 
-End GFW 提供软件同步密码, 包含 无网络聊天 离线聊天 等软件
+End GFW 提供软件同步密码, 包含 无网络通讯 离线通讯 等软件
 BFDNAGD2J445XEJIDZ4BIREVC5QWOXL4O
 
 # <a id="what-can-we-do">我们能做什么</a>
 
 如果你在墙内，保证安全情况下，无监控地方例如厕所涂鸦翻墙软件名称、网站，打印散发翻墙渠道，刻录光盘传播翻墙软件
 
-如果你在境外，帮助身边的朋友翻墙，传播好用的分布式 VPN, Jami
+如果你在境外，帮助身边的朋友翻墙，传播好用的分布式 VPN, 通讯软件Session, Skred，与国内朋友组建无审查通讯网群组
 
-如果你是开发者，请fork这个仓库，每月同步，使政府无法封杀
+如果你是开发者，请fork这个仓库，开启同步，使政府无法封杀
+
+这个仓库repo的Settings -> Actions -> General -> Workflow permissions -> 勾选 Read and write permissions ->点击Save
+
+<img src='/sync.jpg' width='500' height='800' />
 
 欢迎补充
 
