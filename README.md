@@ -26,7 +26,7 @@
 3. <a href="#android">安卓手机端下载 -- 2023年5月中旬墙内测试</a>
 4. <a href="#ios">苹果手机苹果电脑下载教程 -- 2023年5月中旬墙内测试</a>
 5. <a href="#windows">微软系统客户端下载 -- 未测试</a>
-6. <a href="#resilio">编程随想翻墙软件最新同步密码</a>
+6. <a href="#resilio">编程随想翻墙软件最新同步密码 - Resilio Sync(BTSync)下载</a>
 7. <a href="#end-gfw">End GFW提供的其它软件 - Session群</a>
 
     ---
@@ -146,6 +146,12 @@ Psiphon
 
 
 # <a id="resilio">编程随想翻墙软件最新同步密码 -- 测试后发现可能需要最新版本BTSync</a>
+
+[安卓手机版本下载](https://github.com/hello-world-1989/temp/raw/main/android/ResilioSync_2.6.5_Apkpure.apk)  
+
+[苹果电脑版本下载](https://github.com/hello-world-1989/temp/raw/main/mac/Resilio-Sync.dmg)  
+
+[微软系统电脑下载](https://github.com/hello-world-1989/temp/raw/main/windows/Resilio-Sync_x64.exe)
 
 周一到周五早上9点到下午5点在线，如果没在线，请[发邮件](mailto:end.gfw@hotmail.com)
 
