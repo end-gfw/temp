@@ -104,6 +104,11 @@ Tor Browser 分布式去中心化 可以使用
 [谷歌应用商店下载](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
 [Apkpure下载](https://apkpure.com/tor-browser/org.torproject.torbrowser)
 
+台湾之音
+
+[本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/RTI_to_Go_1.1.10_Apkpure.apk)
+[Apkpure下载](https://apkpure.com/cn/rti-to-go/org.rti.Khanka/download)
+
 # <a id="ios">苹果手机苹果电脑下载教程</a>
 
 苹果手机需要先切换为海外地区才能下载，自行注册美区账号见如下图片
