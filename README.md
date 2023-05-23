@@ -26,14 +26,15 @@
 3. <a href="#android">安卓手机端下载 -- 2023年5月中旬墙内测试</a>
 4. <a href="#ios">苹果手机苹果电脑下载教程 -- 2023年5月中旬墙内测试</a>
 5. <a href="#windows">微软系统客户端下载 -- 未测试</a>
-6. <a href="#resilio">编程随想翻墙软件最新同步密码 - Resilio Sync(BTSync)下载</a>
-7. <a href="#end-gfw">End GFW提供的其它软件 - Session群</a>
+6. <a href="#share">共享安卓手机VPN链接</a>
+7. <a href="#resilio">编程随想翻墙软件最新同步密码 - Resilio Sync(BTSync)下载</a>
+8. <a href="#end-gfw">End GFW提供的其它软件 - Session群</a>
 
     ---
     蜂拥 洋葱网络 DHT 无审查去中心化通讯软件 更改应用图标 微信文本加密 洋葱路由
     
-8. <a href="#what-can-we-do">我们能做什么</a>
-9. <a href="#fork-sync">Fork 仓库并开启同步</a>
+9. <a href="#what-can-we-do">我们能做什么</a>
+10. <a href="#fork-sync">Fork 仓库并开启同步</a>
 
 # <a id="desc">项目简介和推荐vpn</a>
 软件大多由美国政府资助开发
@@ -149,6 +150,21 @@ Psiphon
 [本网站下载](https://github.com/hello-world-1989/temp/raw/main/windows/psiphon3.zip)
 [官方网站下载](https://psiphon.ca/psiphon3.exe)
 
+# <a id="share">共享安卓手机VPN链接</a>
+安卓手机[下载 every proxy](https://github.com/hello-world-1989/temp/raw/main/android/EveryProxy_12.4_Apkpure.apk)可以 共享VPN给 电脑 苹果手机
+
+>电脑也可以共享VPN给手机
+
+手机1Every proxy设置， 192.168.1.64是 手机1网络的IP地址, 192.168.226.86是自建的热点AndroidAP 的IP地址
+<img src='/share/every-proxy.jpg' width='300' height='500' />
+
+当手机2和手机1用同一个无线网络时, 手机2 的无线设置
+
+<img src='/share/same-wifi.jpg' width='300' height='500' />
+
+当手机2使用手机1创建的Wifi热点AndroidAP无线网络时, 手机2 的无线设置 
+
+<img src='/share/android-wifi.jpg' width='300' height='500' />
 
 # <a id="resilio">编程随想翻墙软件最新同步密码 -- 测试后发现可能需要最新版本BTSync</a>
 
