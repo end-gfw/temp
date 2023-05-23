@@ -223,7 +223,9 @@ BFDNAGD2J445XEJIDZ4BIREVC5QWOXL4O
 
 如果你是开发者，请fork这个仓库并开启同步，使政府无法封杀
 
-开启同步方法: 这个仓库repo的Settings -> Actions -> General -> Workflow permissions -> 勾选 Read and write permissions ->点击Save
+# <a id="fork-sync">Fork 仓库并开启同步</a>
+
+> 开启同步方法: 这个仓库repo的Settings -> Actions -> General -> Workflow permissions -> 勾选 Read and write permissions ->点击Save
 
 <img src='/sync.png' width='800' height='800' />
 
