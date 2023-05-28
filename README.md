@@ -2,7 +2,7 @@
 
 ## 如果是fork的repo，请查看 最新翻墙说明.md
 
-## 优先推荐使用 通讯应用Session, Skred, 翻墙应用New Node VPN -- 2023年5月中旬墙内测试可以使用
+## 优先推荐使用 通讯应用Session, Skred, 安卓翻墙应用New Node VPN，苹果翻墙应用,VPN Gate 无需客户端翻墙 -- 2023年5月中旬墙内测试可以使用
 >Session初次使用时需要翻墙，群组限制100人，可以翻墙使用Session, 无法翻墙使用Skred, Briar
 
 >Skred 无需翻墙, 点对点通信，需要同时在线或者设置后台接收信息
@@ -19,7 +19,7 @@
 >Brigefy第一次使用时需要翻墙，仅适合聚集的地方使用
 
 1. <a href="#desc">项目简介和推荐vpn</a>
-2. <a href="#general">不需要客户端连接方式--适用于所有系统--部分测试</a>
+2. <a href="#general">VPN Gate 无需客户端翻墙--适用于所有系统--部分测试</a>
 3. <a href="#android">安卓手机端下载 -- 2023年5月中旬墙内测试</a>
 4. <a href="#ios">苹果手机苹果电脑下载教程 -- 2023年5月中旬墙内测试</a>
 5. <a href="#windows">微软系统客户端下载 -- 未测试</a>
@@ -49,14 +49,16 @@
 
 [拆墙运动推特](https://twitter.com/end_gfw)
 
-# <a id="general">VPN Gate提供的不需要客户端连接方式--适用于所有系统</a>
->安卓版本12以上不适用, 请下载客户端
+# <a id="general">VPN Gate 无需客户端翻墙--适用于所有系统</a>
+>安卓版本12以上请[下载OpenVPN客户端](https://github.com/hello-world-1989/temp/raw/main/android/OpenVPN_3.3.4_Apkpure.apk), [下载并导入.ovpn文件](https://github.com/hello-world-1989/temp/raw/main/android/vpngate_219.100.37.170_tcp_443.ovpn)
+> 注: 请用文本编辑器打开.ovpn文件，并修改219.100.37.170 443 为 任意 最新中继服务器地址 和 相对应端口号
+> .ovpn文件可以用于苹果手机 微软系统电脑 苹果电脑 
 
 苹果手机
 
 设置 -> 通用 -> 最下边VPN -> 添加VPN配置 -> 添加L2TP
 
-安卓版本11
+安卓版本11，不需要客户端
 
 设置 -> 连接 -> VPN -> 添加VPN配置 或者在设置中搜索VPN
 
