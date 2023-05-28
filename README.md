@@ -1,12 +1,9 @@
 # 翻墙,免费翻墙,科学上网,免费VPN，完全免费vpn，免费科学上网,防火墙,团结起来推倒防火墙，思想自由，言论自由，新闻自由，中国是世界上为数不多（不超过10个）无法访问谷歌的国家
 
-## 如果你是开发者，fork这个仓库repository并开启同步，每天凌晨自动同步更新
->开启同步方法: Fork后 仓库repository的 Settings -> Actions -> General -> Workflow permissions -> 勾选 Read and write permissions ->点击Save
-
->图解见最后
+## 如果是fork的repo，请查看 最新翻墙说明.md
 
 ## 优先推荐使用 通讯应用Session, Skred, 翻墙应用New Node VPN -- 2023年5月中旬墙内测试可以使用
->Session初次使用时需要翻墙，群组限制100人，可以翻墙使用Session, 无法翻墙使用Jami
+>Session初次使用时需要翻墙，群组限制100人，可以翻墙使用Session, 无法翻墙使用Skred, Briar
 
 >Skred 无需翻墙, 点对点通信，需要同时在线或者设置后台接收信息
 
@@ -34,7 +31,6 @@
     蜂拥 洋葱网络 DHT 无审查去中心化通讯软件 更改应用图标 微信文本加密 洋葱路由
     
 9. <a href="#what-can-we-do">我们能做什么</a>
-10. <a href="#fork-sync">Fork 仓库并开启同步</a>
 
 # <a id="desc">项目简介和推荐vpn</a>
 软件大多由美国政府资助开发
@@ -56,6 +52,12 @@
 # <a id="general">VPN Gate提供的不需要客户端连接方式--适用于所有系统</a>
 >安卓版本12以上不适用, 请下载客户端
 
+苹果手机
+
+设置 -> 通用 -> 最下边VPN -> 添加VPN配置 -> 添加L2TP
+
+安卓版本11
+
 设置 -> 连接 -> VPN -> 添加VPN配置 或者在设置中搜索VPN
 
 选择L2TP/IPSec PSK 类型
@@ -66,9 +68,9 @@
 
 <img src='/general.jpg' width='300' height='400' />
 
-服务器地址，每天更新
+L2TP服务器地址，每小时更新，以http:// 开头的为VPN Gate最新镜像地址，免翻墙访问获取其它翻墙方式，OpenVPN + Windows MS-SSTP
 
-<img src='https://raw.githubusercontent.com/hello-world-1989/cn-news/main/server.jpg' width='800' height='800' />
+<img src='https://raw.githubusercontent.com/hello-world-1989/cn-news/main/server.jpg' width='920' height='600' />
 
 # <a id="android">安卓手机端下载</a>
 
@@ -194,6 +196,8 @@ Session 去中心化分布式通讯，无需手机号邮箱，无需翻墙也可
 
 加群
 
+0574c0e3db87e0ddce32b112c16b626543f20991694b66718160e54d3daa71762f
+
 <img src='/session.jpg' width='300' height='500' />
 
 Skred messager 点对点，去中心化分布式通讯，无需手机号邮箱，无需翻墙也可使用
@@ -202,6 +206,8 @@ Skred messager 点对点，去中心化分布式通讯，无需手机号邮箱�
 [Apkpure下载](https://apkpure.com/cn/skred-messenger/mobi.skred.app/download)
 
 加群
+
+https://invite.skred.mobi/?skredcodeId=b2432d84-2f9b-4e8c-a43f-f01f96bfebb7
 
 <img src='/skred.jpg' width='300' height='500' />
 
@@ -233,17 +239,20 @@ BFDNAGD2J445XEJIDZ4BIREVC5QWOXL4O
 
 # <a id="what-can-we-do">我们能做什么</a>
 
-如果你在墙内，保证安全情况下，无监控地方例如厕所涂鸦翻墙软件名称、网站，打印散发翻墙渠道，刻录光盘传播翻墙软件
+如果你在墙内，帮助身边的人翻墙，传播李老师不是你老师推文， 与朋友组建无审查通讯网， 保证安全情况下，无监控地方例如厕所涂鸦翻墙软件名称、网站，打印散发翻墙渠道，刻录光盘传播翻墙软件
+
+每天真实发生在中国的新闻
+[李老师不是你老师推特](https://twitter.com/whyyoutouzhele) 
+[本站免翻墙查看](https://github.com/hello-world-1989/cn-news/blob/main/%E6%8E%A8%E7%89%B9/2023/u-Month-5/b-Day-24/)
 
 如果你在境外，帮助身边的朋友翻墙，传播好用的分布式 VPN, 通讯软件Session, Skred，与国内朋友组建无审查通讯网群组
 
-如果你是开发者，请fork这个仓库并开启同步，使政府无法封杀
+加入 VPN 服务端（仅支持微软电脑），墙内用户可以链接到您的电脑翻墙
 
-# <a id="fork-sync">Fork 仓库并开启同步</a>
+[教程链接](https://www.vpngate.net/cn/join.aspx)
+[微软系统电脑VPN服务端下载](https://www.softether-download.com/files/softether/v4.41-9787-rtm-2023.03.14-tree/Windows/SoftEther_VPN_Server_and_VPN_Bridge/softether-vpnserver_vpnbridge-v4.41-9787-rtm-2023.03.14-windows-x86_x64-intel.exe)
 
-> 开启同步方法: 这个仓库repo的Settings -> Actions -> General -> Workflow permissions -> 勾选 Read and write permissions ->点击Save
-
-<img src='/sync.png' width='800' height='800' />
+如果你是开发者，fork这个仓库，使政府无法封杀
 
 欢迎补充
 
