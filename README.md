@@ -73,7 +73,7 @@
 
 用户名vpn 密码vpn 预分享密钥或密钥vpn
 
-[免翻墙视频教程下载](https://github.com/hello-world-1989/temp/raw/main/video/android11.mp4)
+[免翻墙下载视频教程](https://github.com/hello-world-1989/temp/raw/main/video/android11.mp4)
 
 [Youtube油管视频教程](https://www.youtube.com/watch?v=s6Z1b84OgcU)
 
@@ -90,11 +90,15 @@ L2TP服务器地址，每小时更新
 
 >安卓版本12以上建议直接使用New Node VPN, 苹果手机使用自带L2TP方式
 
-[Open VPN免翻墙视频教程下载](https://github.com/hello-world-1989/temp/raw/main/video/openvpn.mp4)
+[免翻墙下载Open VPN视频教程](https://github.com/hello-world-1989/temp/raw/main/video/openvpn.mp4)
 
 [Open VPN Youtube油管视频教程](https://www.youtube.com/watch?v=cgTa3oSihME)
 
->安卓版本12以上需要[下载OpenVPN客户端](https://github.com/hello-world-1989/temp/raw/main/android/OpenVPN_3.3.4_Apkpure.apk)和[.ovpn文件](https://github.com/hello-world-1989/temp/raw/main/vpngate_219.100.37.170_tcp_443.end), 下载后需要将后缀名.end改为.ovpn才能使用 VPN Gate 提供的这种翻墙方式
+>安卓版本12以上需要[下载OpenVPN客户端](https://github.com/hello-world-1989/temp/raw/main/android/OpenVPN_3.3.4_Apkpure.apk)和.ovpn才能使用 VPN Gate 提供的这种翻墙方式
+
+>VPN Gate 镜像页面(图片中Mirror List)下载 .ovpn文件
+
+>或者本站下载[.ovpn文件](https://github.com/hello-world-1989/temp/raw/main/vpngate_219.100.37.170_tcp_443.ovpn), 复制所有并保存到TXT文本文件 修改协议(tcp, udp)、网络地址和端口号 并重命名为.ovpn, 此方法繁琐建议VPN Gate镜像页面下载.ovpn文件
 
 >仅OpenVPN客户端方式需要做以下修改， 无需客户端方式忽略中继服务器图片中 T:, U: 部分
 >如果感觉修改.ovpn文件麻烦，可以直接访问 以上图片中 Mirror list自行获取最新.ovpn文件
