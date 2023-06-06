@@ -1,22 +1,28 @@
 # 翻墙,免费翻墙,科学上网,免费VPN，完全免费vpn，免费科学上网,防火墙,团结起来推倒防火墙，思想自由，言论自由，新闻自由，中国是世界上为数不多（不超过10个）无法访问谷歌的国家
 
-## 如果是fork的repo，请查看 最新翻墙说明.md
+## 如果是fork的repo，请查看 最新翻墙说明.md 或 [原始仓库repo](https://github.com/hello-world-1989/temp)
 
-## 优先推荐使用 通讯应用Session, Skred, 安卓翻墙应用New Node VPN，苹果翻墙应用,VPN Gate 无需客户端翻墙 -- 2023年5月中旬墙内测试可以使用
+>欢迎反馈 翻墙效果(能不能用， 速度如何等)到[邮箱](mailto:end.gfw@hotmail.com), 以便提供更好用的翻墙软件
+
+>善用微软必应Bing搜索引擎，比如搜索 李老师不是你老师 github, VPN github等
+
+>点击图片可以放大
+
+## 优先推荐使用 安卓翻墙应用New Node VPN，苹果手机无需客户端翻墙(VPN Gate提供), 通讯应用Session, Skred  -- 2023年5月中旬墙内测试可以使用
 >Session初次使用时需要翻墙，群组限制100人，可以翻墙使用Session, 无法翻墙使用Skred, Briar
 
 >Skred 无需翻墙, 点对点通信，需要同时在线或者设置后台接收信息
 
-## 其次推荐使用  Jami（使用体验不佳，备用通讯应用）, 离线通讯应用Briar(仅安卓版本), Brigefy（近距离使用） -- 2023年5月中旬墙内测试可以使用
+## 其次推荐使用 离线通讯应用Briar(仅安卓版本), Jami（使用体验不佳，备用通讯应用）,Brigefy（近距离使用） -- 2023年5月中旬墙内测试可以使用
+>Briar 不需要翻墙使用
+
+>Brigefy第一次使用时需要翻墙，仅适合聚集的地方使用
+
 >Jami注册时可能需要翻墙，之后使用不需要翻墙
 
 >Jami一对一通讯时两人必须同时在线，建议设置后台运行：右上角 -> 高级设置 -> 后台运行
 
 >Jami群最多8人，Jami正在移除这个限制
-
->Briar 不需要翻墙使用
-
->Brigefy第一次使用时需要翻墙，仅适合聚集的地方使用
 
 1. <a href="#desc">项目简介和推荐vpn</a>
 2. <a href="#general">VPN Gate 无需客户端翻墙--适用于所有系统--部分测试</a>
@@ -50,15 +56,14 @@
 [拆墙运动推特](https://twitter.com/end_gfw)
 
 # <a id="general">VPN Gate 无需客户端翻墙--适用于所有系统</a>
->安卓版本12以上请[下载OpenVPN客户端](https://github.com/hello-world-1989/temp/raw/main/android/OpenVPN_3.3.4_Apkpure.apk), [下载并导入.ovpn文件](https://github.com/hello-world-1989/temp/raw/main/android/vpngate_219.100.37.170_tcp_443.ovpn)
-> 注: 请用文本编辑器打开.ovpn文件，并修改219.100.37.170 443 为 任意 最新中继服务器地址 和 相对应端口号
-> .ovpn文件可以用于苹果手机 微软系统电脑 苹果电脑 
+
+加入Session或Skred群组获取最新VPN Gate中继服务器地址
 
 苹果手机
 
 设置 -> 通用 -> 最下边VPN -> 添加VPN配置 -> 添加L2TP
 
-安卓版本11，不需要客户端
+安卓版本11以下
 
 设置 -> 连接 -> VPN -> 添加VPN配置 或者在设置中搜索VPN
 
@@ -68,11 +73,35 @@
 
 用户名vpn 密码vpn 预分享密钥或密钥vpn
 
+[免翻墙视频教程下载](https://github.com/hello-world-1989/temp/raw/main/video/android11.mp4)
+
+[Youtube油管视频教程](https://www.youtube.com/watch?v=s6Z1b84OgcU)
+
+>219.100.37.xxx可能被屏蔽
+>Open VPN方式优先尝试UDP
+
 <img src='/general.jpg' width='300' height='400' />
 
-L2TP服务器地址，每小时更新，以http:// 开头的为VPN Gate最新镜像地址，免翻墙访问获取其它翻墙方式，OpenVPN + Windows MS-SSTP
+L2TP服务器地址，每小时更新
+
+以http:// 开头的为VPN Gate最新镜像地址可以免翻墙访问, 包含其它翻墙方式，例微软自带翻墙方法MS-SSTP, Mac OpenVPN, iPhone OpenVPN
 
 <img src='https://raw.githubusercontent.com/hello-world-1989/cn-news/main/server.jpg' width='920' height='600' />
+
+>安卓版本12以上建议直接使用New Node VPN, 苹果手机使用自带L2TP方式
+
+[Open VPN免翻墙视频教程下载](https://github.com/hello-world-1989/temp/raw/main/video/openvpn.mp4)
+
+[Open VPN Youtube油管视频教程](https://www.youtube.com/watch?v=cgTa3oSihME)
+
+>安卓版本12以上需要[下载OpenVPN客户端](https://github.com/hello-world-1989/temp/raw/main/android/OpenVPN_3.3.4_Apkpure.apk)和[.ovpn文件](https://github.com/hello-world-1989/temp/raw/main/vpngate_219.100.37.170_tcp_443.end), 下载后需要将后缀名.end改为.ovpn才能使用 VPN Gate 提供的这种翻墙方式
+
+>仅OpenVPN客户端方式需要做以下修改， 无需客户端方式忽略中继服务器图片中 T:, U: 部分
+>如果感觉修改.ovpn文件麻烦，可以直接访问 以上图片中 Mirror list自行获取最新.ovpn文件
+
+> 使用文本编辑器打开.ovpn文件，并修改proto udp, proto tcp 为相对应中继服务器TCP UDP 协议
+
+> 修改219.100.37.170 443 为最新中继服务器地址和端口号TCP:443/992(对应proto tcp),UDP: 1194/1195(proto udp)，端口号可能有变化，依图片为准
 
 # <a id="android">安卓手机端下载</a>
 
@@ -98,7 +127,7 @@ Phiphon 2023年5月中旬测试后发现不稳定，测试不一定准确，欢�
 [本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/Psiphon_379_Apkpure.apk)
 [Apkpure下载](https://apkpure.com/psiphon/com.psiphon3)
 
-Lattern 2023年5月中旬测试后发现不稳定，仅能在应用内搜索，测试不一定准确，欢迎下载使用并反馈
+Lantern 2023年5月中旬测试后发现不稳定，仅能在应用内搜索，测试不一定准确，欢迎下载使用并反馈
 
 [谷歌应用商店下载](https://play.google.com/store/apps/details?id=org.getlantern.lantern)
 [Apkpure下载](https://apkpure.com/lantern-open-internet-for-all/org.getlantern.lantern)
@@ -116,16 +145,18 @@ Tor Browser 分布式去中心化 可以使用
 
 # <a id="ios">苹果手机苹果电脑下载教程</a>
 
-苹果手机需要先切换为海外地区才能下载，自行注册美区账号见如下图片
+短期翻墙强烈建议使用以上VPN Gate提供的无需客户端翻墙方式
+
+苹果手机需要先切换为海外地区才能下载，长期翻墙建议注册海外苹果账户，或自行谷歌搜索 购买海外苹果账户 人民币5元左右，可以长期使用
+
+自行注册美区账号见如下图片或者[知乎教程](https://zhuanlan.zhihu.com/p/367821925)
 
 有可能碰到付款方式问题，请查看第二条评论林然然解决方法
 
+切换后可以搜索New Node VPN,nthlink, tor browser, Psiphon, Lantern等
+
 <img src='/ios/ios-part1.png' width='250' height='350' />
 <img src='/ios/ios-part2.png' width='250' height='350' />
-
-切换后可以搜索New Node VPN,nthlink, tor browser, Psiphon, Lattern等
-
-百度搜索注册美区账号教程或[知乎](https://zhuanlan.zhihu.com/p/367821925)
 
 # <a id="windows">微软系统客户端下载 -- 未经墙内测试</a>
 
@@ -146,7 +177,7 @@ Tor Browser,分布式去中心化
 [本网站下载](https://github.com/hello-world-1989/temp/raw/main/windows/torbrowser-install-win64-12.0.4_ALL.zip)
 [官方网站下载](https://www.torproject.org/dist/torbrowser/12.0.4/torbrowser-install-win64-12.0.4_ALL.exe)
 
-Lattern
+Lantern
 [本网站下载](https://github.com/hello-world-1989/temp/raw/main/windows/lantern-installer.zip)
 [官方网站下载](https://s3.amazonaws.com/lantern/lantern-installer.exe?v=1682373403)
 
@@ -157,16 +188,20 @@ Psiphon
 # <a id="share">共享安卓手机VPN链接</a>
 安卓手机[下载 every proxy](https://github.com/hello-world-1989/temp/raw/main/android/EveryProxy_12.4_Apkpure.apk)可以 共享VPN给 电脑 苹果手机
 
+[Every Proxy免翻墙视频教程下载](https://github.com/hello-world-1989/temp/raw/main/video/sharevpn.mp4)
+
+[Every Proxy Youtube油管视频教程](https://www.youtube.com/watch?v=rJ5Ry76RBtY)
+
 >电脑也可以共享VPN给手机
 
-手机1Every proxy设置， 192.168.1.64是 手机1网络的IP地址, 192.168.226.86是自建的热点AndroidAP 的IP地址
+手机1 Every proxy设置， 192.168.1.64是 手机1网络的IP地址, 192.168.226.86是自建的热点AndroidAP 的IP地址
 <img src='/share/every-proxy.jpg' width='300' height='500' />
 
 当手机2和手机1用同一个无线网络时, 手机2 的无线设置
 
 <img src='/share/same-wifi.jpg' width='300' height='500' />
 
-当手机2使用手机1创建的Wifi热点AndroidAP无线网络时, 手机2 的无线设置 
+当手机2使用手机1创建的无线网络AndroidAP时, 手机2 的无线设置 
 
 <img src='/share/android-wifi.jpg' width='300' height='500' />
 
@@ -196,7 +231,7 @@ Session 去中心化分布式通讯，无需手机号邮箱，无需翻墙也可
 [Apkpure下载](https://apkpure.com/cn/session-private-messenger/network.loki.messenger/download)
 [谷歌应用商店下载](https://play.google.com/store/apps/details?id=network.loki.messenger)
 
-加群
+添加Session号码或者扫描二维码加群
 
 0574c0e3db87e0ddce32b112c16b626543f20991694b66718160e54d3daa71762f
 
@@ -241,7 +276,7 @@ BFDNAGD2J445XEJIDZ4BIREVC5QWOXL4O
 
 # <a id="what-can-we-do">我们能做什么</a>
 
-如果你在墙内，帮助身边的人翻墙，传播李老师不是你老师推文， 与朋友组建无审查通讯网， 保证安全情况下，无监控地方例如厕所涂鸦翻墙软件名称、网站，打印散发翻墙渠道，刻录光盘传播翻墙软件
+如果你在墙内，帮助身边的人翻墙，传播无需翻墙[李老师不是你老师推文](https://github.com/hello-world-1989/cn-news/tree/main/%E6%8E%A8%E7%89%B9/2023/u-Month-5/av-Day-29)， 与朋友组建无审查通讯网， 保证安全情况下，无监控地方例如厕所涂鸦翻墙软件名称、网站，打印散发翻墙渠道，刻录光盘传播翻墙软件
 
 每天真实发生在中国的新闻
 [李老师不是你老师推特](https://twitter.com/whyyoutouzhele) 
@@ -249,12 +284,14 @@ BFDNAGD2J445XEJIDZ4BIREVC5QWOXL4O
 
 如果你在境外，帮助身边的朋友翻墙，传播好用的分布式 VPN, 通讯软件Session, Skred，与国内朋友组建无审查通讯网群组
 
-加入 VPN 服务端（仅支持微软电脑），墙内用户可以链接到您的电脑翻墙
+加入 VPN 服务端（仅支持微软系统电脑），使墙内用户可以链接到您的电脑翻墙
 
 [教程链接](https://www.vpngate.net/cn/join.aspx)
 [微软系统电脑VPN服务端下载](https://www.softether-download.com/files/softether/v4.41-9787-rtm-2023.03.14-tree/Windows/SoftEther_VPN_Server_and_VPN_Bridge/softether-vpnserver_vpnbridge-v4.41-9787-rtm-2023.03.14-windows-x86_x64-intel.exe)
 
 如果你是开发者，fork这个仓库，使政府无法封杀
+
+[动态网下载最新自由门](https://free6.freeku6.xyz/20)
 
 欢迎补充
 
