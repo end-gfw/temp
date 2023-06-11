@@ -4,17 +4,19 @@
 
 >欢迎反馈 翻墙效果(能不能用， 速度如何等)到[邮箱](mailto:end.gfw@hotmail.com), 以便提供更好用的翻墙软件
 
->善用微软必应Bing搜索引擎，比如搜索 李老师不是你老师 github, VPN github等
+>善用微软必应Bing搜索引擎，比如必应搜索 VPN github, 李老师不是你老师 github等
 
 >点击图片可以放大
 
-## 优先推荐使用 安卓翻墙应用New Node VPN，苹果手机无需客户端翻墙(VPN Gate提供), 通讯应用Session, Skred  -- 2023年5月中旬墙内测试可以使用
+## 优先推荐使用 安卓翻墙应用New Node VPN，苹果手机无需客户端翻墙(VPN Gate提供), 通讯应用Session, Skred  -- 2023年6月中旬墙内测试可以使用
 >Session初次使用时需要翻墙，群组限制100人，可以翻墙使用Session, 无法翻墙使用Skred, Briar
 
 >Skred 无需翻墙, 点对点通信，需要同时在线或者设置后台接收信息
 
-## 其次推荐使用 离线通讯应用Briar(仅安卓版本), Jami（使用体验不佳，备用通讯应用）,Brigefy（近距离使用） -- 2023年5月中旬墙内测试可以使用
+## 其次推荐使用 离线通讯应用Briar(仅安卓版本), Jami（使用体验不佳，备用通讯应用）,Brigefy（近距离使用） -- 2023年6月中旬墙内测试可以使用
 >Briar 不需要翻墙使用
+
+>Briar 类似 Airdrop, 100%独立的无线宽带网络、提供可变WiFi网络，不依赖任何传统物理接入方式，无须电话、电缆或卫星连接，能轻易躲过任何形式的政府监测。
 
 >Brigefy第一次使用时需要翻墙，仅适合聚集的地方使用
 
@@ -24,10 +26,12 @@
 
 >Jami群最多8人，Jami正在移除这个限制
 
+>
+
 1. <a href="#desc">项目简介和推荐vpn</a>
 2. <a href="#general">VPN Gate 无需客户端翻墙--适用于所有系统--部分测试</a>
-3. <a href="#android">安卓手机端下载 -- 2023年5月中旬墙内测试</a>
-4. <a href="#ios">苹果手机苹果电脑下载教程 -- 2023年5月中旬墙内测试</a>
+3. <a href="#android">安卓手机端下载 -- 2023年6月中旬墙内测试</a>
+4. <a href="#ios">苹果手机苹果电脑下载教程 -- 2023年6月中旬墙内测试</a>
 5. <a href="#windows">微软系统客户端下载 -- 未测试</a>
 6. <a href="#share">共享安卓手机VPN链接</a>
 7. <a href="#resilio">编程随想翻墙软件最新同步密码 - Resilio Sync(BTSync)下载</a>
@@ -77,7 +81,7 @@
 
 [Youtube油管视频教程](https://www.youtube.com/watch?v=s6Z1b84OgcU)
 
->219.100.37.xxx可能被屏蔽
+>219.100.37.xxx可能被屏蔽, 请多尝试几个IP地址
 >Open VPN方式优先尝试UDP
 
 <img src='/general.jpg' width='300' height='400' />
@@ -90,15 +94,19 @@ L2TP服务器地址，每小时更新
 
 >安卓版本12以上建议直接使用New Node VPN, 苹果手机使用自带L2TP方式
 
-[免翻墙下载Open VPN视频教程](https://github.com/hello-world-1989/temp/raw/main/video/openvpn.mp4)
+[免翻墙下载Open VPN视频教程](https://github.com/hello-world-1989/temp/raw/main/video/openvpn2.mp4)
 
-[Open VPN Youtube油管视频教程](https://www.youtube.com/watch?v=cgTa3oSihME)
+[Open VPN Youtube油管视频教程](https://www.youtube.com/watch?v=GHhv5NI1EfI)
 
 >安卓版本12以上需要[下载OpenVPN客户端](https://github.com/hello-world-1989/temp/raw/main/android/OpenVPN_3.3.4_Apkpure.apk)和.ovpn才能使用 VPN Gate 提供的这种翻墙方式
 
->VPN Gate 镜像页面(图片中Mirror List)下载 .ovpn文件
+>VPN Gate 镜像页面(图片中Mirror List)下载 .ovpn文件 见以上视频教程
 
 >或者本站下载[.ovpn文件](https://github.com/hello-world-1989/temp/raw/main/vpngate_219.100.37.170_tcp_443.ovpn), 复制所有并保存到TXT文本文件 修改协议(tcp, udp)、网络地址和端口号 并重命名为.ovpn, 此方法繁琐建议VPN Gate镜像页面下载.ovpn文件
+
+[免翻墙下载-镜像网站无法访问时， 手动修改Open VPN视频教程](https://github.com/hello-world-1989/temp/raw/main/video/openvpn.mp4)
+
+[Youtube油管 镜像网站无法访问时 手动修改Open VPN视频教程](https://www.youtube.com/watch?v=cgTa3oSihME)
 
 >仅OpenVPN客户端方式需要做以下修改， 无需客户端方式忽略中继服务器图片中 T:, U: 部分
 >如果感觉修改.ovpn文件麻烦，可以直接访问 以上图片中 Mirror list自行获取最新.ovpn文件
@@ -110,6 +118,8 @@ L2TP服务器地址，每小时更新
 # <a id="android">安卓手机端下载</a>
 
 New Node 结合测试和网友反馈，速度很快
+
+>很多广东网友反馈无法链接， nthlink可以链接
 
 [本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/newnode.vpn.2.1.2.apk)
 [谷歌应用商店下载](https://play.google.com/store/apps/details?id=com.clostra.newnode.vpn) 
@@ -131,6 +141,16 @@ Phiphon 2023年5月中旬测试后发现不稳定，测试不一定准确，欢�
 [本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/Psiphon_379_Apkpure.apk)
 [Apkpure下载](https://apkpure.com/psiphon/com.psiphon3)
 
+无界 欢迎下载使用并反馈
+
+[本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/um50.apk)
+[Github备用下载](https://github.com/sglfree/freesky)
+
+自由门 欢迎下载使用并反馈
+
+[本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/fgma5.0.apk)
+[Apkpure下载](https://github.com/sglfree/freesky)
+
 Lantern 2023年5月中旬测试后发现不稳定，仅能在应用内搜索，测试不一定准确，欢迎下载使用并反馈
 
 [谷歌应用商店下载](https://play.google.com/store/apps/details?id=org.getlantern.lantern)
@@ -151,7 +171,7 @@ Tor Browser 分布式去中心化 可以使用
 
 短期翻墙强烈建议使用以上VPN Gate提供的无需客户端翻墙方式
 
-苹果手机需要先切换为海外地区才能下载，长期翻墙建议注册海外苹果账户，或自行谷歌搜索 购买海外苹果账户 人民币5元左右，可以长期使用
+苹果手机需要先切换为海外地区才能下载，长期翻墙建议注册海外苹果账户，或自行谷歌搜索 购买海外苹果账户, 可以长期使用
 
 自行注册美区账号见如下图片或者[知乎教程](https://zhuanlan.zhihu.com/p/367821925)
 
@@ -231,6 +251,10 @@ BQDQF2CBGPH6MR2JHOFJRJZJPVYBLAJEH
 
 Session 去中心化分布式通讯，无需手机号邮箱，无需翻墙也可使用
 
+[免翻墙下载Session视频教程](https://github.com/hello-world-1989/temp/raw/main/video/session.mp4)
+
+[Session Youtube油管视频教程](https://www.youtube.com/watch?v=oq5ZcZnS5h0)
+
 [End GFW网站下载](https://github.com/end-gfw/google-groups/raw/main/Session_1.16.7_Apkpure.apk)
 [Apkpure下载](https://apkpure.com/cn/session-private-messenger/network.loki.messenger/download)
 [谷歌应用商店下载](https://play.google.com/store/apps/details?id=network.loki.messenger)
@@ -280,13 +304,14 @@ BFDNAGD2J445XEJIDZ4BIREVC5QWOXL4O
 
 # <a id="what-can-we-do">我们能做什么</a>
 
-如果你在墙内，帮助身边的人翻墙，传播无需翻墙[李老师不是你老师推文](https://github.com/hello-world-1989/cn-news/tree/main/%E6%8E%A8%E7%89%B9/2023/u-Month-5/av-Day-29)， 与朋友组建无审查通讯网， 保证安全情况下，无监控地方例如厕所涂鸦翻墙软件名称、网站，打印散发翻墙渠道，刻录光盘传播翻墙软件
+如果你在墙内，帮助身边的人翻墙，传播无需翻墙[李老师不是你老师推文](https://github.com/hello-world-1989/cn-news/tree/main/%E6%8E%A8%E7%89%B9/2023/t-Month-6/t-Day-06), [编程随想博客](https://program-think-mirrors.github.io/blog/html/2009/05/how-to-break-through-gfw.html)， 与朋友组建无审查通讯网， 保证安全情况下，无监控地方例如厕所涂鸦翻墙软件名称、网站，打印散发翻墙渠道，刻录光盘传播翻墙软件
 
 每天真实发生在中国的新闻
 [李老师不是你老师推特](https://twitter.com/whyyoutouzhele) 
-[本站免翻墙查看](https://github.com/hello-world-1989/cn-news/blob/main/%E6%8E%A8%E7%89%B9/2023/u-Month-5/b-Day-24/)
+[本站免翻墙查看](https://github.com/hello-world-1989/cn-news/tree/main/%E6%8E%A8%E7%89%B9/2023/t-Month-6/t-Day-06/)
 
 如果你在境外，帮助身边的朋友翻墙，传播好用的分布式 VPN, 通讯软件Session, Skred，与国内朋友组建无审查通讯网群组
+继续 编程随想 工作， 普及免费 易用翻墙
 
 加入 VPN 服务端（仅支持微软系统电脑），使墙内用户可以链接到您的电脑翻墙
 
@@ -295,7 +320,7 @@ BFDNAGD2J445XEJIDZ4BIREVC5QWOXL4O
 
 如果你是开发者，fork这个仓库，使政府无法封杀
 
-[动态网下载最新自由门](https://free6.freeku6.xyz/20)
+[动态网, 免翻墙访问，包含美国之音 自由亚洲电台等境外媒体](https://free6.freeku6.xyz/20)
 
 欢迎补充
 
