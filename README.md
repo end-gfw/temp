@@ -29,7 +29,7 @@
 5. <a href="#windows">微软系统客户端下载 -- 未测试</a>
 6. <a href="#share">共享安卓手机VPN链接</a>
 7. <a href="#resilio">编程随想翻墙软件最新同步密码 - Resilio Sync(BTSync)下载</a>
-8. <a href="#end-gfw">End GFW提供的其它软件 - Session群</a>
+8. <a href="#end-gfw">End GFW提供的其它软件 李老师不是你老师离线PDF版 - Session群</a>
 
     ---
     蜂拥 洋葱网络 DHT 无审查去中心化通讯软件 更改应用图标 微信文本加密 洋葱路由
@@ -321,6 +321,9 @@ SSE 消息加密后即使使用短信或微信发送也无法被审查
 
 End GFW 提供软件同步密码, 包含 无网络通讯 离线通讯 等软件 - 可能需要最新版本Resilio Sync进行同步
 BFDNAGD2J445XEJIDZ4BIREVC5QWOXL4O
+
+李老师不是你老师离线PDF版本同步
+BGLCKIVXUMFYVASCASDKT7RHT7L7IYX76
 
 # <a id="what-can-we-do">我们能做什么</a>
 
