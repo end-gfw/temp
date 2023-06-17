@@ -8,7 +8,9 @@
 
 >点击图片可以放大
 
-## 优先推荐使用 安卓翻墙应用New Node VPN，苹果手机无需客户端翻墙(VPN Gate提供), 通讯应用Session, Skred  -- 2023年6月中旬墙内测试可以使用
+>点对点应用请保持在后台运行， 将会帮助其它人翻墙 提升翻墙速度或者能够及时收到消息
+
+## 优先推荐使用 安卓翻墙应用New Node VPN，NthLink 苹果手机无需客户端翻墙(VPN Gate提供)--2023年6月中旬墙内测试网友反馈需要尝试多个IP才能链接成功, 通讯应用Session -- 2023年6月中旬墙内测试可以使用
 >Session初次使用时需要翻墙，群组限制100人，可以翻墙使用Session, 无法翻墙使用Skred, Briar
 
 >Skred 无需翻墙, 点对点通信，需要同时在线或者设置后台接收信息
@@ -20,16 +22,8 @@
 
 >Brigefy第一次使用时需要翻墙，仅适合聚集的地方使用
 
->Jami注册时可能需要翻墙，之后使用不需要翻墙
-
->Jami一对一通讯时两人必须同时在线，建议设置后台运行：右上角 -> 高级设置 -> 后台运行
-
->Jami群最多8人，Jami正在移除这个限制
-
->
-
 1. <a href="#desc">项目简介和推荐vpn</a>
-2. <a href="#general">VPN Gate 无需客户端翻墙--适用于所有系统--部分测试</a>
+2. <a href="#general">VPN Gate 无需客户端翻墙--适用于所有系统--2023年6月中旬墙内测试,网友反馈需要尝试多个IP才能链接成功</a>
 3. <a href="#android">安卓手机端下载 -- 2023年6月中旬墙内测试</a>
 4. <a href="#ios">苹果手机苹果电脑下载教程 -- 2023年6月中旬墙内测试</a>
 5. <a href="#windows">微软系统客户端下载 -- 未测试</a>
@@ -45,23 +39,57 @@
 # <a id="desc">项目简介和推荐vpn</a>
 软件大多由美国政府资助开发
 
-[编程随想匿名保护隐私指南](https://github.com/hello-world-1989/program-think-image)
+Open VPN客户端配合.ovpn文件 100%可用翻墙方式，如果链接不上，很大可能配置问题, 视频教程
+
+[免翻墙下载Open VPN视频教程](https://github.com/hello-world-1989/temp/raw/main/video/openvpn2.mp4)
+
+[Open VPN Youtube油管视频教程](https://www.youtube.com/watch?v=GHhv5NI1EfI)
+
+>镜像地址Mirror List在下边的图片中, L2TP服务器地址
+
+>或者[发邮件](mailto:end.gfw@hotmail.com)索取镜像地址，邮件主题镜像地址
+
+Orbot VPN配合普通网桥 100%可用翻墙方式，如果链接不上，很大可能配置问题
+
+>[自行获取网桥](https://bridges.torproject.org/bridges/?transport=0), 注意获取普通网桥， Advanced Options中选择None
+
+>[发邮件](mailto:end.gfw@hotmail.com)索取网桥，邮件主题网桥
+
+普通网桥示例
+```
+195.201.202.125:443 D44C0BC5AF900547704BCE5062E4B169672120E8
+95.216.198.193:8080 23F35720E7DAC1F8A3DDBD5D40C90A552B31435A
+```
+
+obfs4网桥示例 是Tor Browser使用的
+
+```
+obfs4 185.177.207.132:8443 4FB781F7A9DD39DA53A7996907817FC479874D19 cert=UL2gCAXWW5kEWY4TQ0lNeu6OAmzh40bXYVhMnTWVG8USnyy/zEKGSIPgmwTDMumWr9c1Pg iat-mode=0
+obfs4 185.130.46.79:2155 6DFDEA756B00FFD9819061D51D1A3305C853125C cert=c0co+KUDFPtmkh33IL0sbN6WHpm4tBpE53yAECbz3m6fVLslq1aUeiducZ0IY6DaCOVUdQ iat-mode=0
+obfs4 68.183.36.57:23411 11A47B73E44EC752E77B9864D8A26D250613B642 cert=Jc9MHFAfavb/MmJYz5exrKC7es3lnFq+BOaOv6RgrQ3ALxD/bBmwyDQOi/njk115QK0YGw iat-mode=0
+```
+
+保护隐私防止被喝茶， 建议阅读 [数字极权时代生存手册](https://reconsidera.github.io/#/12)和[编程随想博客推荐帖子-信息安全](https://program-think.blogspot.com/2019/01/Security-Guide-for-Political-Activists.html)
 
 如果担心下载的VPN有问题（包含病毒、被政府修改等），若能翻墙直接官网下载最新版本
 
 如果暂时不能翻墙，请信得过的朋友协助下载或者安装此处下载的翻墙软件，自行到官网下载安装，卸载从此处安装的翻墙软件
 
-[翻墙后看什么](https://github.com/hello-world-1989/what-to-see)
+[启蒙反洗脑](https://github.com/hello-world-1989/what-to-see)
 
-友情链接
-
-[拆墙运动软件下载](https://github.com/end-gfw/google-groups)
+[李老师不是你老师推文离线PDF版本](https://github.com/hello-world-1989/whyyoutouzhele)
 
 [拆墙运动推特](https://twitter.com/end_gfw)
 
-# <a id="general">VPN Gate 无需客户端翻墙--适用于所有系统</a>
+海外朋友可以加入[拆墙运动电报Telegram](https://t.me/end_gfw1)
 
-加入Session或Skred群组获取最新VPN Gate中继服务器地址
+国内朋友加入Session 群
+
+0574c0e3db87e0ddce32b112c16b626543f20991694b66718160e54d3daa71762f
+
+# <a id="general">VPN Gate 无需客户端翻墙--适用于所有系统--2023年6月中旬墙内测试网友反馈需要尝试多个IP才能链接成功</a>
+
+加入Session群组获取最新VPN Gate中继服务器地址
 
 苹果手机
 
@@ -73,7 +101,7 @@
 
 选择L2TP/IPSec PSK 类型
 
-服务器地址 xxx.xxx.xxx.xxx, 例如219.100.37.92
+服务器地址 xxx.xxx.xxx.xxx, 例如45.87.173.20
 
 用户名vpn 密码vpn 预分享密钥或密钥vpn
 
@@ -81,18 +109,19 @@
 
 [Youtube油管视频教程](https://www.youtube.com/watch?v=s6Z1b84OgcU)
 
->219.100.37.xxx可能被屏蔽, 请多尝试几个IP地址
+>有些IP可能被屏蔽, 请多尝试几个IP地址
+
 >Open VPN方式优先尝试UDP
 
 <img src='/general.jpg' width='300' height='400' />
 
 L2TP服务器地址，每小时更新
 
-以http:// 开头的为VPN Gate最新镜像地址可以免翻墙访问, 包含其它翻墙方式，例微软自带翻墙方法MS-SSTP, Mac OpenVPN, iPhone OpenVPN
+图片中Mirror List 以http:// 开头的为VPN Gate最新镜像地址可以免翻墙访问, 包含其它翻墙方式，例微软自带翻墙方法MS-SSTP, Mac OpenVPN, iPhone OpenVPN
 
 <img src='https://raw.githubusercontent.com/hello-world-1989/cn-news/main/server.jpg' width='920' height='600' />
 
->安卓版本12以上建议直接使用New Node VPN, 苹果手机使用自带L2TP方式
+>安卓版本12以上建议直接使用New Node VPN, NthLink VPN, Orbot VPN, 苹果手机使用自带L2TP方式
 
 [免翻墙下载Open VPN视频教程](https://github.com/hello-world-1989/temp/raw/main/video/openvpn2.mp4)
 
@@ -102,41 +131,40 @@ L2TP服务器地址，每小时更新
 
 >VPN Gate 镜像页面(图片中Mirror List)下载 .ovpn文件 见以上视频教程
 
->或者本站下载[.ovpn文件](https://github.com/hello-world-1989/temp/raw/main/vpngate_219.100.37.170_tcp_443.ovpn), 复制所有并保存到TXT文本文件 修改协议(tcp, udp)、网络地址和端口号 并重命名为.ovpn, 此方法繁琐建议VPN Gate镜像页面下载.ovpn文件
-
-[免翻墙下载-镜像网站无法访问时， 手动修改Open VPN视频教程](https://github.com/hello-world-1989/temp/raw/main/video/openvpn.mp4)
-
-[Youtube油管 镜像网站无法访问时 手动修改Open VPN视频教程](https://www.youtube.com/watch?v=cgTa3oSihME)
-
->仅OpenVPN客户端方式需要做以下修改， 无需客户端方式忽略中继服务器图片中 T:, U: 部分
->如果感觉修改.ovpn文件麻烦，可以直接访问 以上图片中 Mirror list自行获取最新.ovpn文件
-
-> 使用文本编辑器打开.ovpn文件，并修改proto udp, proto tcp 为相对应中继服务器TCP UDP 协议
-
-> 修改219.100.37.170 443 为最新中继服务器地址和端口号TCP:443/992(对应proto tcp),UDP: 1194/1195(proto udp)，端口号可能有变化，依图片为准
-
 # <a id="android">安卓手机端下载</a>
 
-New Node 结合测试和网友反馈，速度很快
+New Node 结合测试和网友反馈，速度很快 2023年6月中旬测试可用
 
->很多广东网友反馈无法链接， nthlink可以链接
+>很多广东网友反馈无法链接， 广东网友请尝试nthlink
 
 [本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/newnode.vpn.2.1.2.apk)
 [谷歌应用商店下载](https://play.google.com/store/apps/details?id=com.clostra.newnode.vpn) 
 [Apkpure下载](https://apkpure.com/newnode/com.newnode.messenger/download)
+
+Orbot Tor VPN， 100%可用翻墙方式, 如果链接不上，很大可能配置问题, 需要开启 使用网桥-> Snowflake1, Snowflake2
+
+如果还不能链接，请使用自定义网桥 -> 粘贴网桥地址， 发邮件到[邮箱](mailto:end.gfw@hotmail.com) 标题: 索取网桥地址
+
+[本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/Orbot-17.0.0-RC-1-tor.0.4.7.11-fullperm-universal-release.apk)
+[官方Github下载](https://github.com/guardianproject/orbot/releases)
+
+nthlink 2023年6月中旬测试可用，欢迎下载使用并反馈
+
+[本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/nthlink-6_0_5.apk.zip)
+[谷歌应用商店下载](https://play.google.com/store/apps/details?id=com.nthlink.android.client)
+[Apkpure下载](https://apkpure.com/nthlink/com.nthlink.android.client)
+
+自由门 2023年6月中旬测试可用，欢迎下载使用并反馈
+
+[本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/fgvpn13-update.apk)
+[Github备用下载](https://github.com/sglfree/freesky)
 
 Super VPN 2023年5月中旬测试后发现可能需要连接多次才能使用，测试不一定准确，欢迎下载使用并反馈
 
 [本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/SuperVPN_2.8.4_Apkpure.apk)
 [Apkpure下载](https://apkpure.com/cn/supervpn-fast-vpn-client/com.jrzheng.supervpnfree/)
 
-nthlink 2023年5月中旬测试后仅能在应用内部访问 美国之音 自由亚洲电台 Youtube等网站，测试不一定准确，欢迎下载使用并反馈
-
-[本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/nthlink-6_0_5.apk.zip)
-[谷歌应用商店下载](https://play.google.com/store/apps/details?id=com.nthlink.android.client)
-[Apkpure下载](https://apkpure.com/nthlink/com.nthlink.android.client)
-
-Phiphon 2023年5月中旬测试后发现不稳定，测试不一定准确，欢迎下载使用并反馈
+Psiphon 2023年5月中旬测试后发现不稳定，测试不一定准确，欢迎下载使用并反馈
 
 [本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/Psiphon_379_Apkpure.apk)
 [Apkpure下载](https://apkpure.com/psiphon/com.psiphon3)
@@ -146,17 +174,12 @@ Phiphon 2023年5月中旬测试后发现不稳定，测试不一定准确，欢�
 [本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/um50.apk)
 [Github备用下载](https://github.com/sglfree/freesky)
 
-自由门 欢迎下载使用并反馈
-
-[本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/fgma5.0.apk)
-[Apkpure下载](https://github.com/sglfree/freesky)
-
 Lantern 2023年5月中旬测试后发现不稳定，仅能在应用内搜索，测试不一定准确，欢迎下载使用并反馈
 
 [谷歌应用商店下载](https://play.google.com/store/apps/details?id=org.getlantern.lantern)
 [Apkpure下载](https://apkpure.com/lantern-open-internet-for-all/org.getlantern.lantern)
 
-Tor Browser 分布式去中心化 可以使用
+Tor Browser 100%可用翻墙方式, 如果链接不上，很大可能配置问题, 需要开启snowflake或者输入自定义obfs4网桥
 
 [本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/Tor_12.0.6_Apkpure.apk)
 [谷歌应用商店下载](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
@@ -167,9 +190,14 @@ Tor Browser 分布式去中心化 可以使用
 [本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/RTI_to_Go_1.1.10_Apkpure.apk)
 [Apkpure下载](https://apkpure.com/cn/rti-to-go/org.rti.Khanka/download)
 
+[迷雾通](https://waa.ai/xiazaimiwutong)
+
 # <a id="ios">苹果手机苹果电脑下载教程</a>
 
-短期翻墙强烈建议使用以上VPN Gate提供的无需客户端翻墙方式
+临时可用翻墙方式，直到正式上线，需安装 TestFlight
+[Orbot VPN](https://testflight.apple.com/join/adSqbCeM)
+
+短期翻墙建议使用以上VPN Gate提供的无需客户端翻墙方式 -- 2023年6月网友反馈需要尝试多个IP才能链接成功
 
 苹果手机需要先切换为海外地区才能下载，长期翻墙建议注册海外苹果账户，或自行谷歌搜索 购买海外苹果账户, 可以长期使用
 
@@ -177,7 +205,7 @@ Tor Browser 分布式去中心化 可以使用
 
 有可能碰到付款方式问题，请查看第二条评论林然然解决方法
 
-切换后可以搜索New Node VPN,nthlink, tor browser, Psiphon, Lantern等
+切换后可以搜索New Node VPN, NthLink VPN, Orbot VPN, Tor browser, Psiphon, Lantern等
 
 <img src='/ios/ios-part1.png' width='250' height='350' />
 <img src='/ios/ios-part2.png' width='250' height='350' />
@@ -192,12 +220,12 @@ Tor Browser 分布式去中心化 可以使用
 [本网站下载](https://github.com/hello-world-1989/temp/raw/main/windows/u.zip)
 [官方网站下载](https://d1mqnu3031neuj.cloudfront.net/login2.html?i=a3)
 
-VPN Gate,分布式去中心化，很难被封杀
+VPN Gate
 
 [本网站下载](https://github.com/hello-world-1989/temp/raw/main/windows/vpngate-client-2023.04.22-build-9787.155749.zip)
 [官方网站下载](https://download.vpngate.jp/common/cd.aspx/vpngate-client-2023.04.25-build-9787.155775.zip)
 
-Tor Browser,分布式去中心化
+Tor Browser, 100%可用翻墙方式, 如果链接不上，很大可能配置问题, 需要开启snowflake或者输入自定义网桥
 [本网站下载](https://github.com/hello-world-1989/temp/raw/main/windows/torbrowser-install-win64-12.0.4_ALL.zip)
 [官方网站下载](https://www.torproject.org/dist/torbrowser/12.0.4/torbrowser-install-win64-12.0.4_ALL.exe)
 
@@ -245,9 +273,7 @@ BQDQF2CBGPH6MR2JHOFJRJZJPVYBLAJEH
 
 # <a id="end-gfw">End GFW提供的其它软件，通过Resilio Sync(BTSync）同步下载或者访问以下链接下载 - - DHT 无审查去中心化通讯软件 更改应用图标 微信文本加密</a>
 
-介绍详见[链接](https://github.com/end-gfw/google-groups)
-
-优先顺序: Session -> Skred -> Jami -> Briar(仅安卓) -> Brigefy（只能近距离使用）
+优先顺序: Session -> Skred -> Briar(仅安卓) -> Jami -> Brigefy（只能近距离使用）
 
 Session 去中心化分布式通讯，无需手机号邮箱，无需翻墙也可使用
 
@@ -270,21 +296,15 @@ Skred messager 点对点，去中心化分布式通讯，无需手机号邮箱�
 [End GFW下载](https://github.com/end-gfw/google-groups/raw/main/Skred_Messenger_8.2_Apkpure.apk)
 [Apkpure下载](https://apkpure.com/cn/skred-messenger/mobi.skred.app/download)
 
-加群
-
-https://invite.skred.mobi/?skredcodeId=b2432d84-2f9b-4e8c-a43f-f01f96bfebb7
-
-<img src='/skred.jpg' width='300' height='500' />
+Briar 离线无审查分布式去中心化无网络蓝牙通讯软件,暂时仅支持安卓手机
+[End GFW网站下载](https://github.com/end-gfw/google-groups/raw/main/Briar_1.4.23_Apkpure.apk)
+[Apkpure下载](https://apkpure.com/cn/briar/org.briarproject.briar.android)
 
 Jami 蜂拥 点对点，去中心化分布式通讯，无需手机号邮箱，无需翻墙也可使用，使用体验不佳
 
 [End GFW网站下载](https://github.com/end-gfw/google-groups/raw/main/Jami_20230421-01_Apkpure.apk)
 [Apkpure下载](https://apkpure.com/cn/jami/cx.ring/download)
 [谷歌应用商店下载](https://play.google.com/store/apps/details?id=cx.ring)
-
-Briar 离线无审查分布式去中心化无网络蓝牙通讯软件,暂时仅支持安卓手机
-[End GFW网站下载](https://github.com/end-gfw/google-groups/raw/main/Briar_1.4.23_Apkpure.apk)
-[Apkpure下载](https://apkpure.com/cn/briar/org.briarproject.briar.android)
 
 Brigefy 离线附近的人联系
 [End GFW网站下载](https://github.com/end-gfw/google-groups/raw/main/Bridgefy_3.1.18_Apkpure.apk)
@@ -304,14 +324,17 @@ BFDNAGD2J445XEJIDZ4BIREVC5QWOXL4O
 
 # <a id="what-can-we-do">我们能做什么</a>
 
-如果你在墙内，帮助身边的人翻墙，传播无需翻墙[李老师不是你老师推文](https://github.com/hello-world-1989/cn-news/tree/main/%E6%8E%A8%E7%89%B9/2023/t-Month-6/t-Day-06), [编程随想博客](https://program-think-mirrors.github.io/blog/html/2009/05/how-to-break-through-gfw.html)， 与朋友组建无审查通讯网， 保证安全情况下，无监控地方例如厕所涂鸦翻墙软件名称、网站，打印散发翻墙渠道，刻录光盘传播翻墙软件
+如果你在墙内，帮助身边的人翻墙，传播无需翻墙[李老师不是你老师推文离线PDF版](https://github.com/hello-world-1989/whyyoutouzhele), [编程随想博客](https://program-think-mirrors.github.io/blog/html/2009/05/how-to-break-through-gfw.html)， 与朋友组建无审查通讯网， 保证安全情况下，无监控地方例如厕所涂鸦翻墙软件名称、网站，打印散发翻墙渠道，刻录光盘传播翻墙软件, 将拆墙运动 李老师不是你老师 印在人民币上
 
 每天真实发生在中国的新闻
-[李老师不是你老师推特](https://twitter.com/whyyoutouzhele) 
-[本站免翻墙查看](https://github.com/hello-world-1989/cn-news/tree/main/%E6%8E%A8%E7%89%B9/2023/t-Month-6/t-Day-06/)
 
-如果你在境外，帮助身边的朋友翻墙，传播好用的分布式 VPN, 通讯软件Session, Skred，与国内朋友组建无审查通讯网群组
-继续 编程随想 工作， 普及免费 易用翻墙
+[李老师不是你老师推文离线PDF版本](https://github.com/hello-world-1989/whyyoutouzhele)
+[本站免翻墙查看](https://github.com/hello-world-1989/cn-news/tree/main/%E6%8E%A8%E7%89%B9/2023/t-Month-6/t-Day-06/)
+[李老师不是你老师推特](https://twitter.com/whyyoutouzhele) 
+
+如果你在境外，帮助身边的朋友翻墙，传播好用的分布式 VPN, 通讯软件Session, Skred，Briar与国内朋友组建无审查通讯网群组
+
+继续 编程随想 工作， 普及免费易用翻墙
 
 加入 VPN 服务端（仅支持微软系统电脑），使墙内用户可以链接到您的电脑翻墙
 
